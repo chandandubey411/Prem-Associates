@@ -252,7 +252,7 @@ export default function About() {
               </div>
             </motion.div>
 
-            {/* Son/VP/Founder Card */}
+            {/* Director & Co-Founder Card - Rahul Singh Ambavta */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -262,18 +262,18 @@ export default function About() {
             >
               <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-2xl overflow-hidden shrink-0 relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&q=80" 
-                  alt="Karan Singh Ambavta" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  src="/rahul-singh-ambavta.jpg" 
+                  alt="Rahul Singh Ambavta" 
+                  className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute top-2 right-2 w-3 h-3 bg-green-500 rounded-full border-2 border-dark-700" />
               </div>
               <div className="flex-grow text-center sm:text-left">
                 <span className="inline-block text-[10px] font-bold tracking-wider uppercase bg-primary-600/20 text-primary-400 px-2.5 py-1 rounded-lg">Director & Co-Founder</span>
-                <h3 className="font-display text-2xl font-bold text-white mt-2.5 mb-1">Karan Singh Ambavta</h3>
+                <h3 className="font-display text-2xl font-bold text-white mt-2.5 mb-1">Rahul Singh Ambavta</h3>
                 <p className="text-gray-500 text-xs font-semibold uppercase tracking-wider mb-4">Co-Founder & Director</p>
                 <p className="text-gray-300 text-sm leading-relaxed mb-2">
-                  Karan Singh Ambavta drives strategic expansion, developer collaborations, and digital modernization at Prem Associates. Dedicated to client success, he focuses on onboarding premium real estate projects and ensuring top-tier service delivery across Faridabad.
+                  Rahul Singh Ambavta drives strategic expansion, developer collaborations, and digital modernization at Prem Associates. Dedicated to client success, he focuses on onboarding premium real estate projects and ensuring top-tier service delivery across Faridabad.
                 </p>
               </div>
             </motion.div>
